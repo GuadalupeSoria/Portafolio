@@ -1,13 +1,18 @@
 import './App.css';
+import ParticleComponent from './components/Particles';
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <header className="App-header">
-       <h1>Guadalupe Soria</h1>
+      <ParticleComponent />
+
+       {/* <h1 className="justify-center">Guadalupe Soria</h1> */}
       </header>
+
     </div>
-  );
+    
+  )
 }
 
-export default App;
+export default App 
